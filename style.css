@@ -1,8 +1,43 @@
-body { background-color: #EEE685;
-    color: #5E2612;}
-h1 { background-color: #C76114;
-     color: #800000;}
-h2 { background-color: #800000;
-     color: #C76114}
-.destination { color: #CD3700;}
-#new { color: #8A3324}
+body {
+    background-color: #EEE685;
+    background-image: url(sumaging.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    color: #5E2612;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+h1 {
+    background-color: #C76114;
+    color: #800000;
+    font-family: Palatino, Georgia, serif;
+}
+
+h2 {
+    background-color: #800000;
+    width: 45%;
+    color: #C76114;
+    font-family: Georgia, Palatino, serif;
+}
+
+footer {
+    font-size: .70em;
+    text-align: left;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.hyper {
+    font-weight: bold;
+    font-size: 140%;
+}
+
+.destination {
+    color: #CD3700;
+}
+
+#new {
+    color: #8A3324
+}
