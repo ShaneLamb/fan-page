@@ -1,7 +1,54 @@
-body { background-color: #F0FFFF;
-    color: #5B5B5B;}
-h1 { background-color: #43CD80;
-     color: #000000;}
-h2 { background-color: #BDFCC9;}
-.destination { color: #B8860B;}
-#new { color: #FF8C00}
+body {
+    background-color: rgba(66, 205, 126, 0.5);
+    color: #FFFFFF;
+    background-image: url(river2.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+h1 {
+    background-color: #43CD80;
+    width: 34.5%;
+    height: 100%;
+    color: #000000;
+    font-family: Baskerville, Georgia, serif;
+}
+
+h2 {
+    background-color: rgba(50, 36, 249, 0.5);
+    width: 31.5%;
+    height: 100%;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+p {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 50%;
+    height: 100%;
+    color: #003300;
+}
+
+footer {
+    font-style: italic;
+    font-size: .75em;
+    text-align: right;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+.hyper {
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.destination {
+    color: red;
+}
+
+#new {
+    color: darkolivegreen;
+}
