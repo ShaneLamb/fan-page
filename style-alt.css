@@ -8,12 +8,30 @@ body {
     font-family: Verdana, Arial, sans-serif;
 }
 
+main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 h1 {
-    background-color: #43CD80;
-    width: 34.5%;
-    height: 100%;
+    background-color: rgba(66, 205, 131, .68);
+    background-image: url(luggage-2b.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    width: 50%;
+    height: 100px;
+    font-size: 3em;
+    border-radius: 25px;
+    padding-top: 25px;
+    padding-left: 15px;
+    min-width: 720px;
+    max-width: 880px;
+    margin-left: 85px;
     color: #000000;
     font-family: Baskerville, Georgia, serif;
+    text-shadow: 1px 1px 3px #666;
 }
 
 h2 {
@@ -21,23 +39,31 @@ h2 {
     width: 31.5%;
     height: 100%;
     font-family: Georgia, "Times New Roman", serif;
+    padding-left: 6px;
 }
 
 p {
     background-color: rgba(255, 255, 255, 0.7);
+    padding-left: 5px;
     width: 50%;
     height: 100%;
+    border: 1px solid #000000;
+    border-radius: 5px;
     color: #003300;
 }
 
 footer {
     font-style: italic;
     font-size: .75em;
-    text-align: right;
+    text-align: center;
 }
 
 ul {
     list-style-type: circle;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
 
 .hyper {
@@ -47,6 +73,14 @@ ul {
 
 .destination {
     color: red;
+}
+
+#container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 1080px;
+    max-width: 1280px;
 }
 
 #new {
