@@ -11,6 +11,8 @@ h1 {
     background-clip: content-box;
     background-repeat: no-repeat;
     height: 100px;
+    width: 100%;
+    margin 0;
     font-size: 3em;
     text-shadow: 3px 3px 3px #666;
     background-position: right;
@@ -36,7 +38,10 @@ footer {
     font-size: .70em;
     text-align: left;
 }
-
+main img {
+            margin: 10px;
+            float: right;
+}
 nav {
     float: left;
     width: 175px;
