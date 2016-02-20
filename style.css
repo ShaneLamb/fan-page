@@ -1,10 +1,9 @@
 body {
-    background-image: url(sumaging.jpg);
-    background-position: right;
-    background-repeat: no-repeat;
+    margin-bottom: 100px;
     background-color: #EEE685;
     color: #5E2612;
     font-family: Arial, Verdana, sans-serif;
+    position: relative;
 }
 
 h1 {
@@ -13,15 +12,13 @@ h1 {
     background-repeat: no-repeat;
     height: 100px;
     font-size: 3em;
-    border-radius: 25px;
     text-shadow: 3px 3px 3px #666;
     background-position: right;
     background-color: #66CCFF;
-    min-width: 1000px;
-    max-width: 1280px;
     color: #800000;
     font-family: Palatino, Georgia, serif;
     text-align: center;
+    position: static;
 }
 
 h2 {
@@ -32,11 +29,48 @@ h2 {
     color: #C76114;
     font-family: Georgia, Palatino, serif;
     padding-left: 7px;
+    margin-top: 180px;
 }
 
 footer {
     font-size: .70em;
     text-align: left;
+}
+
+nav {
+    float: left;
+    width: 175px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    padding-left: 20px;
+    margin-top: 180px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    background-color: #b3c7e6;
+    border-bottom: 1px solid #ffffff;
+}
+
+nav a:link {
+    color: #ffffff;
+}
+
+nav a:visited {
+    color: rgba(142, 53, 31, 1);
+}
+
+nav a:hover {
+    color: #869dc7;
+    background-color: #eaeaea;
 }
 
 p {
@@ -50,7 +84,7 @@ p {
 ul {
     list-style-type: square;
     min-width: 30%;
-    max-width: 50%;
+    max-width: 58%;
 }
 
 .uppercase {
@@ -66,10 +100,13 @@ ul {
     color: #CD3700;
 }
 
+.div {
+    margin: 0;
+}
+
 #container {
-    width: 80%;
-    margin-left: 130px;
-    margin-right: 100px;
+    width: 100%;
+    margin: auto;
     min-width: 650px;
     max-width: 1280px;
 }
