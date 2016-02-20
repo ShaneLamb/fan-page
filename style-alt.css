@@ -58,6 +58,42 @@ footer {
     text-align: center;
 }
 
+nav {
+    float: left;
+    width: 175px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    padding-left: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 58%;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    background-color: #b3c7e6;
+    border-bottom: 1px solid #ffffff;
+}
+
+nav a:link {
+    color: #ffffff;
+}
+
+nav a:visited {
+    color: rgba(142, 53, 31, 1);
+}
+
+nav a:hover {
+    color: #869dc7;
+    background-color: #eaeaea;
+}
+
 ul {
     list-style-type: circle;
 }
