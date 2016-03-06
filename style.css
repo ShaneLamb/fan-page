@@ -1,66 +1,77 @@
 body {
     margin-bottom: 100px;
     background-color: #EEE685;
+    background-image: linear-gradient(to bottom, #EEE685, #FFFFCC);
+    background-repeat: no-repeat;
     color: #5E2612;
     font-family: Arial, Verdana, sans-serif;
-    position: relative;
 }
 
 h1 {
     background-image: url(passport-mini.jpg);
     background-clip: content-box;
     background-repeat: no-repeat;
+    float: left;
     height: 100px;
-    width: 100%;
     font-size: 3em;
     text-shadow: 3px 3px 3px #666;
     background-position: right;
-    background-color: #66CCFF;
+    background-color: rgba(223, 128, 32, 1);
     color: #800000;
     font-family: Palatino, Georgia, serif;
     text-align: center;
-    position: static;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 5px;
 }
 
 h2 {
     background-color: #800000;
-    background-image: linear-gradient(to left, #FF0033, #800000);
-    background-repeat: no-repeat;
     width: 45%;
     color: #C76114;
     font-family: Georgia, Palatino, serif;
     padding-left: 7px;
-    margin-top: 180px;
+    margin-top: 50px;
+    margin-left: 5px;
+}
+
+h4 {
+    margin-left: 5px;
 }
 
 footer {
     font-size: .70em;
-    text-align: left;
+    text-align: center;
 }
+
 main img {
-            margin: 10px;
-            float: right;
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    float: right;
 }
+
 nav {
-    float: left;
-    width: 175px;
     font-weight: bold;
-    letter-spacing: .1em;
-    padding-left: 20px;
-    margin-top: 180px;
 }
 
 nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 5px;
+    max-width: 100%
+}
+
+nav li {
+    display: inline-block;
 }
 
 nav a {
     text-decoration: none;
     padding: 20px;
     display: block;
-    background-color: #b3c7e6;
+    background-color: rgba(128, 128, 128, 1);
     border-bottom: 1px solid #ffffff;
 }
 
@@ -83,16 +94,14 @@ p {
     min-width: 30%;
     max-width: 50%;
     padding-left: 4px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 ul {
     list-style-type: square;
     min-width: 30%;
-    max-width: 58%;
-}
-
-.uppercase {
-    text-transform: uppercase;
+    max-width: 85%;
 }
 
 .hyper {
@@ -109,12 +118,16 @@ ul {
 }
 
 #container {
-    width: 100%;
+    background-color: #F4E8BC;
+    width: 90%;
     margin: auto;
-    min-width: 650px;
-    max-width: 1280px;
+    color: #330000;
 }
 
 #new {
     color: #8A3324
 }
+
+#divmobile {}
+
+#divmobile2 {}
